@@ -319,8 +319,8 @@
 			 */
 			do_action( 'bp_before_registration_submit_buttons' ); ?>
 
-			<div class="submit">
-				<input type="submit" name="signup_submit" id="signup_submit" value="<?php esc_attr_e( 'Complete Sign Up', 'buddypress' ); ?>" />
+			<div class="submit-reg">
+				<input type="submit" name="signup_submit" id="signup_submit" value="<?php esc_attr_e( 'Hoàn tất đăng ký', 'buddypress' ); ?>" />
 			</div>
 
 			<?php
